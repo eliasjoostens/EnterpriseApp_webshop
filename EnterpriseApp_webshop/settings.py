@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django_seed',
     'django_otp',
     'django_otp.plugins.otp_totp',
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
