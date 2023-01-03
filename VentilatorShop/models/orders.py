@@ -3,7 +3,6 @@ from .product import Products
 from .customer import Customer
 import datetime
 
-
 class Order(models.Model):
     product = models.ForeignKey(Products,
                                 on_delete=models.CASCADE)
