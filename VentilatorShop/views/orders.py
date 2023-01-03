@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.hashers import check_password
 from VentilatorShop.models.customer import Customer
 from django.views import View
-from VentilatorShop.models.product import Products
+from VentilatorShop.models.product import Product
 from VentilatorShop.models.orders import Order
 from VentilatorShop.middlewares.auth import auth_middleware
 

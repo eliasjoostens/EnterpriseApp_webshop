@@ -4,7 +4,7 @@ from django.contrib.auth.hashers import check_password
 from VentilatorShop.models.customer import Customer
 from django.views import View
 
-from VentilatorShop.models.product import Products
+from VentilatorShop.models.product import Product
 from VentilatorShop.models.orders import Order
 
 
@@ -14,7 +14,7 @@ class CheckOut(View):
         phone = request.POST.get('phone')
         customer = request.session.get('customer')
         cart = request.session.get('cart')
-        products = Products.get_products_by_id(list(cart.keys()))
+        products = Product.get_products_by_id(list(cart.keys()))
         print(address, phone, customer, cart, products)
 
         for product in products:

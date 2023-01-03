@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, HttpResponseRedirect
-from VentilatorShop.models.product import Products
+from VentilatorShop.models.product import Product
 from VentilatorShop.models.category import Category
 from django.views import View
 
@@ -44,9 +44,9 @@ def store1(request):
     categories = Category.get_all_categories()
     categoryID = request.GET.get('category')
     if categoryID:
-        products = Products.get_all_products_by_categoryid(categoryID)
+        products = Product.get_all_products_by_categoryid(categoryID)
     else:
-        products = Products.get_all_products();
+        products = Product.get_all_products();
 
     data = {}
     data['products'] = products
