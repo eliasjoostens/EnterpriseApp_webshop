@@ -16,4 +16,4 @@ admin.site.register(Category)
 admin.site.register(Customer)
 admin.site.register(Order)
 
-# username = eliasj, email = elias.joostens@student.ehb.be, password = 1234
+# username = eliasj, email = elias@ehb.be, password = elias
