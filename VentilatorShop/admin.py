@@ -19,4 +19,4 @@ admin.site.register(Category)
 admin.site.register(Customer)
 admin.site.register(Order)
 
-# username = super, email = superuser@ehb.be, password = Super123
+# username = superman, email = superuser@ehb.be, password = Super123
