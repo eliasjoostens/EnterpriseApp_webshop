@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <title>E-commerce Website</title>
+    <title>More than just ventilators</title>
 
     <style>
         nav {
@@ -43,7 +43,7 @@
               crossorigin="anonymous">
 
         <img src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png"
-             style="width:50px;height:50px,color:text-light;">E-Commerce</a>
+             style="width:50px;height:50px,color:text-light;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -53,7 +53,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="/store1">Store <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/store1">Enterprise App Webshop <span class="sr-only">(current)</span></a>
             </li>
 
         </ul>
@@ -61,7 +61,7 @@
         <ul class=" navbar-nav my-2 my-lg-0">
 
             <li class="nav-item active">
-                <a class="nav-link" href="/cart">Cart
+                <a class="nav-link" href="/cart">Winkelmandje
                     <span class="badge badge-success">{{ request.session.cart.keys|length }}</span>
                     <span class="sr-only">(current)</span></a>
             </li>
@@ -69,18 +69,18 @@
             {% if request.session.customer %}
 
                 <li class="nav-item active ">
-                    <a class="nav-link" href="/orders">Orders<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/orders">Bestellingen<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active ">
-                    <a class="nav-link" href="/logout">Logout<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/logout">Uitloggen<span class="sr-only">(current)</span></a>
                 </li>
             {% else %}
 
                 <li class="nav-item active">
-                    <a class="nav-link" href="/signup">Signup<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/signup">Aanmelden<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="/login">Login<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/login">Inloggen<span class="sr-only">(current)</span></a>
                 </li>
             {% endif %}
 

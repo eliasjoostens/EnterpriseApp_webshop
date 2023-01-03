@@ -7,6 +7,7 @@ from django.views import View
 from VentilatorShop.models.product import Products
 from VentilatorShop.models.orders import Order
 
+
 class CheckOut(View):
     def post(self, request):
         address = request.POST.get('address')
