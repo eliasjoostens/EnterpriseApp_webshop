@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=60)),
                 ('price', models.IntegerField(default=0)),
                 ('description', models.CharField(blank=True, default='', max_length=250, null=True)),
-                ('image', models.ImageField(null=True, upload_to='uploads/products/')),
+                ('image', models.ImageField(null=True, upload_to='uploads/products')),
                 ('category', models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='VentilatorShop.category')),
             ],
             options={
