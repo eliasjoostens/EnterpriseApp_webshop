@@ -11,7 +11,7 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th>Nummer</th>
+                    <th>BestelNr.</th>
                     <th>Afbeelding</th>
                     <th>Artikel</th>
                     <th>Prijs</th>
@@ -61,7 +61,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">
-                        Check Out Formulier
+                        Check out formulier
                     </h5>
                     <hr>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -73,13 +73,13 @@
                         <form action="/check-out" method="POST">
                             {% csrf_token %}
                             <div class="form-group">
-                                <label for="">Adres</label>
+                                <label for="">Adres voor levering</label>
                                 <input type="text" name="address" id="" class="form-control" placeholder=""
                                        aria-describedby="helpId">
 
                             </div>
                             <div class="form-group">
-                                <label for="">Telefoon</label>
+                                <label for="">Telefoonnummer bij afwezigheid</label>
                                 <input type="text" name="phone" id="" class="form-control" placeholder=""
                                        aria-describedby="helpId">
                             </div>
