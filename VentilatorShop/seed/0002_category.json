@@ -1,0 +1,23 @@
+[
+{
+    "model": "VentilatorShop.category",
+    "pk": 1,
+    "fields": {
+        "name": "Ventilator"
+    }
+},
+{
+    "model": "VentilatorShop.category",
+    "pk": 2,
+    "fields": {
+        "name": "Airco"
+    }
+},
+{
+    "model": "VentilatorShop.category",
+    "pk": 3,
+    "fields": {
+        "name": "Koelingselement"
+    }
+}
+]

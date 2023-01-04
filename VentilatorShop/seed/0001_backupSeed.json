@@ -1,0 +1,56 @@
+[
+{
+    "model": "VentilatorShop.category",
+    "pk": 1,
+    "fields": {
+        "name": "Ventilator"
+    }
+},
+{
+    "model": "VentilatorShop.category",
+    "pk": 2,
+    "fields": {
+        "name": "Airco"
+    }
+},
+{
+    "model": "VentilatorShop.category",
+    "pk": 3,
+    "fields": {
+        "name": "Koelingselement"
+    }
+},
+{
+    "model": "VentilatorShop.product",
+    "pk": 1,
+    "fields": {
+        "name": "Ventilator 1",
+        "price": 50,
+        "category": 1,
+        "description": "Ventilator die je lekker koel houdt in de winter!",
+        "image": ""
+    }
+},
+{
+    "model": "VentilatorShop.product",
+    "pk": 2,
+    "fields": {
+        "name": "Airco 1",
+        "price": 250,
+        "category": 2,
+        "description": "Airco die niet in je nek blaast!",
+        "image": ""
+    }
+},
+{
+    "model": "VentilatorShop.product",
+    "pk": 3,
+    "fields": {
+        "name": "Koelingselement 1",
+        "price": 10,
+        "category": 3,
+        "description": "Hou je etenswaren lekker koel. ",
+        "image": ""
+    }
+}
+]
