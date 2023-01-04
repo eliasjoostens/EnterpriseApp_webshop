@@ -5,8 +5,6 @@ from .category import Category
 class Product(models.Model):
     name = models.CharField(max_length=60)
     price = models.IntegerField(default=0)
-    #introYear = models.IntegerField(null=True)
-    #voltage = models.CharField(null=True, default='230V', max_length=255)
     category = models.ForeignKey(Category, on_delete=models.CASCADE, default=1)
     description = models.CharField(max_length=250, default='', blank=True, null=True)
     image = models.ImageField(upload_to='uploads/products/')
