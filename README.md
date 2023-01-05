@@ -18,3 +18,7 @@ De stappen die je dient te ondernemen om uit dit project een werkende webshop te
 -> py manage.py runserver_plus --cert-file cert.pem --key-file key.pem
 10. Open website door te klikken op het voorziene adres of in je browser te surfen naar
 -> https://127.0.0.1:8000/store
+
+
+https://user-images.githubusercontent.com/59340987/210785122-180c6e60-9280-4645-a629-a65caf18b0b8.mp4
+
